@@ -1,3 +1,0 @@
-# gitdemo 
-
-hellooo wolrd

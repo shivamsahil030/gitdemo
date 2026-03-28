@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <link rel="website icon" type="jpeg" href="OIP.jpeg">
+
+  <title>Collage Finder</title>
+
+  <style>
+    body {
+
+      background-image: url(https://th.bing.com/th/id/OIP.uL47aZBcqpYM_fiLfpfkvwHaDE?pid=ImgDet&w=768&h=319&rs=1);
+
+      background-size: cover;
+
+    }
+
+
+
+    .form-container {
+
+      background-color: rgba(255, 255, 255, 0.8);
+
+      padding: 20px;
+
+      margin: 0 auto;
+
+      width: 100px;
+
+    }
+
+
+
+    .form-container input,
+
+    .form-container textarea {
+
+      width: 100%;
+
+      padding: 10px;
+
+      margin-bottom: 10px;
+
+    }
+
+
+
+    .form-container input[type="submit"] {
+
+      background-color: #4CAF50;
+
+      color: rgb(255, 255, 255);
+
+      cursor: pointer;
+
+    }
+  </style>
+
+  <div continer></div>
+
+</head>
+
+<body>
+
+
+
+  <h1><u><b>
+        <font face="Dubai"> Contact us for college Informations</font>
+      </b></u></h1>
+
+
+
+
+
+  <fieldset>
+
+    <legend>Collage Finder</legend>
+
+    <br>
+
+    <h3><b><u>Personal data </u></b></h3>
+
+
+
+    <form action="/submit-form" method="post">
+
+      <label for="name">Name:</label>
+
+      <input type="text" id="First Name" name="First Name" placeholder="First name " required>
+
+      <input type="text" id="Last Name" name="Last Name" placeholder="Last Name" required>
+
+      <br><br>
+
+
+
+      <label for="D.O.B"> D.O.B:</label>
+
+      <input type="date" id="date" placeholder="date of birth" required><br><br>
+
+
+
+      <label for="Age">Age:</label>
+
+      <input type="number" id="Age" placeholder="age with current year" required> <br><br>
+
+
+
+      <label for="Gender">Gender:</label>
+
+      <select id="gender" name="gender">
+
+        <option value="">Select gender</option>
+
+        <option value="male">Male</option>
+
+        <option value="female">Female</option>
+
+        <option value="other">Other</option>
+
+      </select><br><br>
+
+      <label for="country"> country:</label>
+
+      <select id="country" name="country">
+
+        <option value="">Select country</option>
+
+        <option value="India">India</option>
+
+      </select>
+
+      <label for="state"> state:</label>
+
+      <select id="state" name="state">
+
+        <option value="">Select state</option>
+
+        <option value="Andhra pradesh"> Andhra pradesh</option>
+
+        <option value="Arunachal pradesh">Arunachal pradesh</option>
+
+        <option value="Assam">Assam</option>
+
+        <option value="Bihar">Bihar</option>
+
+        <option value="Chattisgarh">Chattisgarh</option>
+
+        <option value="Goa">Goa</option>
+
+        <option value="Gujarat">Gujarat</option>
+
+        <option value="Haryana">haryana</option>
+
+        <option value="Himachal pradesh">Himachal pradesh</option>
+
+        <option value="Jharkhand">Jharkhand</option>
+
+        <option value="Karnatak">Karnatak</option>
+
+        <option value="Kerala">kerala</option>
+
+        <option value="Madhya pradesh">madhya pradesh</option>
+
+        <option value="Maharashtra">Maharashtra</option>
+
+        <option value="Manipur">manipur</option>
+
+        <option value="Meghalaya">meghalaya</option>
+
+        <option value="Mizoram">mizoram</option>
+
+        <option value="Nagaland">Nagaland</option>
+
+        <option value="Odisha">Odisha</option>
+
+        <option value="Punjab">punjab</option>
+
+        <option value="Rajasthan">Rajasthan</option>
+
+        <option value="Sikkim">sikkim</option>
+
+        <option value="Tamil Nadhu">Tamil Nadhu</option>
+
+        <option value="Telangana">Telangana</option>
+
+        <option value="Tripura">Tripura</option>
+
+        <option value="Uttar pradesh">Uttar pradesh</option>
+
+        <option value="Uttrakhand">Uttrakhand</option>
+
+        <option value="West bengal">West bengal</option>
+
+      </select>
+
+      <label for="city">city:</label>
+
+      <input type="text" id="city" placeholder="City name" required>
+
+      <br><br>
+
+      <label for="phone number">Phone no:</label>
+
+      <input type="number" id="Phone number" placeholder="Phone number" required>
+
+      <br><br>
+
+      <label for="email">Email:</label>
+
+      <input type="email" id="email" name="email" placeholder="email" required>
+
+      <br><br>
+
+      <h3><b><u>Collage Data</u></b></h3>
+
+      <lebel for="Type">Type:</lebel>
+
+      <select name="type" id="type">
+
+        <option value="">Type</option>
+
+        <option value="Goverment">Goverment</option>
+
+        <option value="PPP">PPP</option>
+
+        <option value="Private">Private</option>
+
+      </select><br><br>
+
+      <label for="Sub-Type">Sub-Type:</label>
+
+      <select name="Sub-Type" id="Sub-Type" aria-placeholder="Sub-Type">
+
+        <option value="">sub-type</option>
+
+        <option value="IIT">IIT</option>
+
+        <option value="NIT">NIT</option>
+
+        <option value="IIIT">IIIT</option>
+
+        <option value="GFTI">GFTI</option>
+
+        <option value="BITS">BITS</option>
+
+        <option value="IISc">IISc</option>
+
+        <option value="IIST">IIST</option>
+
+        <option value="IISER">IISER</option>
+
+        <option value="NISER">NISER</option>
+
+        <option value="UPTU">UPTU</option>
+
+        <option value="IPU">IPU</option>
+
+        <option value="SPPU">SPPU</option>
+
+        <option value="KTU">KTU</option>
+
+        <option value="AU">AU</option>
+
+      </select><br><br>
+
+      <lebel for="Course">Course</lebel>
+
+      <select name="Course" id="Course" aria-placeholder="Course">
+
+        <option value="">Course</option>
+
+        <option value="B.E">B.E</option>
+
+        <option value="Btech">Btech</option>
+
+        <option value="B.sc">B.sc</option>
+
+        <option value="B.plan">B.plan</option>
+
+        <option value="B.des.">B.des</option>
+
+        <option value="B.Arch.">B.Arch.</option>
+
+        <option value="M.tech">M.tech</option>
+
+        <option value="B.tech + M.tech">B.tech + M.tech(Dual Degree)</option>
+
+        <option value="B.tech+MBA">B.tech + MBA (Dual Degree)</option>
+
+        <option value="M.sc">M.sc</option>
+
+        <option value="B.sc+m.sc">b.se + M.sc (Dual Degree)</option>
+
+        <Option value="B.pharm">B.pharm</Option>
+
+        <option value="M.pharm">M.pharm</option>
+
+        <option value="B.pharm+M.phram">B.phram + M.phram(Dual Degree)</option>
+
+        <option value="B.E">B.E</option>
+
+        <option value="B.stat.">B.stat</option>
+
+        <option value="B.math.">B.math</option>
+
+      </select><br><br>
+
+
+
+      <input type="submit" value="submit">
+
+    </form>
+
+    <footer>
+
+      <P>
+
+        THANK YOU FOR SUBMIT!!!
+
+        OUR TEAM WILL CONTACT TOO SOON!!!
+
+      </P>
+
+      <h5>Our Helpline no:- +917469854477</h5>
+
+    </footer>
+
+</body>
+
+</html>

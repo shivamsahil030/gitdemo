@@ -1,0 +1,19 @@
+ul{
+height: 60px;
+width: 10%;
+background-color: aqua;
+display: flex;
+flex-direction: row;
+
+/* justify-content: end; */
+flex-wrap: wrap;
+
+
+}
+a{
+margin: 50px;
+
+}
+li{
+    list-style: none;
+}

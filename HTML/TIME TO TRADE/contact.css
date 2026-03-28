@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+/* for logo */
+.navbar {
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    display: inline;
+}
+
+#logo {
+    padding-top: 10px;
+    padding-left: 10px;
+
+}
+
+#log {
+    font-size: 30px;
+    color: #7e22ce;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+/* for content */
+.content {
+    height: 60px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    text-align: end;
+    display: inline-block;
+    border-bottom: #d8c1ec 2px solid;
+}
+
+a {
+    font-size: 19px;
+    flex-direction: row;
+    margin: 25px;
+    color: black;
+    text-decoration: none;
+}
+
+.log1 {
+    margin-left: -10px;
+}
+
+.log2 {
+    margin-left: -45px;
+}
+
+.button1 {
+    height: 35px;
+    width: 65px;
+    border: 5px solid #7e22ce;
+    color: white;
+    background-color: #7e22ce;
+    border-radius: 8px;
+    margin-left: 5px;
+    margin-right: 20px;
+}
+
+/* contact section  */
+.contact {
+    height: 750px;
+    width: 1900px;
+
+}
+
+h2 {
+    text-align: center;
+    padding-top: 200px;
+}
+
+.contact-logo {
+    height: 200px;
+    width: 1900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.logo-img {
+    height: 150px;
+    width: 150px;
+    background-image: url(logo2.jpg);
+    background-size: cover;
+    border-radius: 50%;
+
+}
+
+.contact-icon {
+    height: 50px;
+    width: 1900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px transparent;
+}
+
+.contact-icon a {
+    font-size: 30px;
+}
+
+.contact-icon a:hover {
+    color: #7e22ce;
+}
+
+/* footer */
+.foot-panel3 {
+    background-color: #a5a2a8;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-panel3 a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.foot-panel4 {
+    background-color: #a5a2a8;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-panel4 a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+    margin-top: 5px;
+    margin-right: -4px;
+}

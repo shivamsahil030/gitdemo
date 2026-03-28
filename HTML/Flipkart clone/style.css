@@ -1,0 +1,297 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar {
+    height: 66px;
+    width: 1800px;
+    background-color: #ffffff;
+    color: rgb(51, 51, 51);
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-left: 60px;
+}
+
+.nav-logo {
+    height: 22px;
+    width: 100px;
+
+}
+
+.logo {
+    background-image: url("https://1000marche.net/wp-content/uploads/2022/06/Flipkart-logo-1536x864.png");
+    height: 80px;
+    width: 100%;
+    background-size: cover;
+}
+
+.nav-serch {
+    display: flex;
+
+}
+
+.serch-input {
+    height: 50px;
+    width: 700px;
+    border: none;
+}
+
+.serch-input:active {
+    border: white 2px solid;
+
+}
+
+.serch-input:placeholder-shown {
+    font-size: 1.1rem;
+}
+
+.serch-icon {
+    width: 24px;
+    height: 24px;
+    font-size: 1.7rem;
+    padding: 8px 8px 8px 12px;
+    margin-right: 5px;
+
+}
+
+.nav-store {
+    height: 24px;
+    width: 100px;
+
+
+}
+
+.nav-store pre {
+    font-size: 21px;
+    padding-top: 1px;
+}
+
+.store-icon {
+    height: 24px;
+    width: 24px;
+    font-size: 1.7rem;
+    display: flex;
+}
+
+.nav-sigin {
+    height: 42px;
+    width: 100px;
+    display: flex;
+}
+
+.nav-sigin pre {
+    font-size: 21px;
+    padding-top: 1px;
+}
+
+.nav-sigin i {
+    width: 24px;
+    height: 24px;
+    font-size: 1.5rem;
+}
+
+.select-signin {
+    width: 24px;
+    height: 24px;
+    font-size: 1.5rem;
+    border: none;
+    display: flex;
+}
+
+.nav-cart {
+    height: 24px;
+    width: 32px;
+    display: flex;
+}
+
+.nav-cart pre {
+    font-size: 21px;
+    padding-top: 1px;
+}
+
+.nav-cart i {
+    width: 24px;
+    height: 24px;
+    font-size: 1.5rem;
+    border: none;
+}
+
+.nav-menu {
+    height: 42px;
+    width: 42px;
+}
+
+.nav-menu i {
+    width: 24px;
+    height: 24px;
+    font-size: 1.5rem;
+    border: none;
+}
+
+/* shop-category */
+.shop-category {
+    width: 1600px;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #ffffff;
+    margin-left: 100px;
+}
+
+.box1 {
+    height: 100px;
+    width: 10px;
+    background-color: white;
+    margin-top: 15px;
+}
+
+.box1 a {
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+    font-weight: 600;
+}
+
+.boxone-img {
+    height: 64px;
+    width: 64px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
+
+/* hero-section */
+.hero-section {
+    height: 300px;
+    width: 1700px;
+    background-size: cover;
+    display: flex;
+    margin-top: 45px;
+    margin-left: 70px;
+}
+
+.bank-offers {
+    background-image: url(https://rukminim1.flixcart.com/fk-p-flap/1600/140/image/f0015fa73d07b3c8.jpg?q=20);
+    height: 150px;
+    width: 1750px;
+    background-color: aqua;
+    display: flex;
+    margin-left: 50px;
+}
+
+/* shop-section */
+.heading {
+    margin-left: 70px;
+}
+
+.shop-section {
+    width: 1800px;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #ffffff;
+
+}
+
+.box2 {
+    height: 240px;
+    width: 165px;
+    background-color: white;
+    border: 2px solid rgb(224, 224, 224);
+    padding-left: 1rem;
+    margin-left: 70px;
+    margin-top: 1rem;
+}
+
+.box2 a {
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+    font-weight: 600;
+}
+
+.boxsec-img {
+    height: 158px;
+    width: 158px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* offer-section */
+.offer-section {
+    width: 1800px;
+    height: 173x;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box3 {
+    height: 250px;
+    width: 500px;
+    padding-left: 1rem;
+    margin-top: 200px;
+}
+
+.boxthird-img {
+    height: 250px;
+    width: 570px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+/* footer */
+.foot-panel1 {
+    background-color: #212121;
+    color: white;
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul {
+    margin-top: 20px;
+}
+ul p{
+    color: #878787;
+}
+
+ul a{
+    display: block;
+    font-size: 12px;
+    margin-top: 10px;
+    color: #dddddd;
+    text-decoration: none;
+}
+.foot-pre{
+    display: block;
+    font-size: 12px;
+    margin-top: 10px;
+    color: #dddddd;
+    text-decoration: none;
+}
+ul a:hover {
+    border-bottom: 1px solid white;
+}
+.foot-panel2 {
+    background-color: #212121;
+    color: white;
+    border-top: 2px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.foot-panel2 i{
+    color: #e6f05b;
+  justify-content: right;
+}
+.foot-panel2 a{
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 15px;
+}

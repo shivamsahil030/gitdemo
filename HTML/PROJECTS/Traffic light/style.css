@@ -1,0 +1,43 @@
+#light{
+    height: 15%;
+   width: 15%;
+    background-color: black;
+    border-color: black;
+    padding :5px ;
+    border-radius: 15px;
+   
+}
+
+#red{
+    height: 100px;
+    width: 100px;
+    border-style:solid ;
+    border-color: red;
+border-radius: 50%;
+background-color: red;
+padding: 50px;
+margin: 25px;
+
+}
+
+#yellow{
+    height: 100px;
+    width: 100px;
+    border-style:solid ;
+    border-color: yellow;
+border-radius: 50%;
+background-color: yellow;
+padding: 50px;
+margin: 25px;
+}
+
+#green{
+    height: 100px;
+    width: 100px;
+    border-style:solid ;
+    border-color: green;
+border-radius: 50%;
+background-color: green;
+padding: 50px;
+margin: 25px;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Swipeable Images</title>
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <style>
+    .swiper-container {
+      width: 50%;
+      height: 50%;
+    }
+    .swiper-slide img {
+      width: 50%;
+      height: 50%;
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body>
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img src="hhgd.jpeg" alt="Image 1">
+      </div>
+      <div class="swiper-slide">
+        <img src="hhh.jpg" alt="Image 2">
+      </div>
+      <div class="swiper-slide">
+        <img src="image3.jpg" alt="Image 3">
+      </div>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      loop: true,
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
+</body>
+</html>

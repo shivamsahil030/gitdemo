@@ -1,0 +1,109 @@
+/* practice set 1 */
+/* question1 */
+#box{
+    background-color: blue;
+}
+/*  end*/
+
+/* question2 */
+.heading{
+    color: red;
+}
+/* end */
+/* questions3 */
+#click{
+    background-color: green;
+}
+/* :end */
+/* practice set 2 */
+/* question1 */
+#apna{
+    text-align: center;
+    text-transform: capitalize;
+}
+/* end */
+/* questions2 */
+#lo{
+    font-family: 'Times New Roman';
+}
+/* end */
+/* questions3 */
+#outer{
+    font-size: 25px;
+}
+#inner{
+    font-size: 10px;
+}
+/* end */
+/* practice set:-3 */
+/* questions1 */
+#a{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border-radius: 50%;
+}
+/* end */
+/* questions2 */
+#navbar{
+   height: 60px;
+background-color: black;
+}
+#logo{
+    color: #f08804;
+    font-size: 25px;
+}
+#b{
+    background-color: #f08804;
+    color: white;
+}
+a{
+ margin-right: 300px;
+ text-decoration: none;
+color: white;
+}
+/* end */
+/* questions2 */
+#light{
+    height: 15%;
+   width: 15%;
+    background-color: black;
+    border-color: black;
+    padding :5px ;
+    border-radius: 15px;
+   
+}
+
+#red{
+    height: 100px;
+    width: 100px;
+    border-style:solid ;
+    border-color: red;
+border-radius: 50%;
+background-color: red;
+padding: 50px;
+margin: 25px;
+
+}
+
+#yellow{
+    height: 100px;
+    width: 100px;
+    border-style:solid ;
+    border-color: yellow;
+border-radius: 50%;
+background-color: yellow;
+padding: 50px;
+margin: 25px;
+}
+
+#green{
+    height: 100px;
+    width: 100px;
+    border-style:solid ;
+    border-color: green;
+border-radius: 50%;
+background-color: green;
+padding: 50px;
+margin: 25px;
+}
